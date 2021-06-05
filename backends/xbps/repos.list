@@ -1,0 +1,30 @@
+[MAIN]
+repository=https://alpha.de.repo.voidlinux.org/current
+desc=Main
+enabled=true
+
+[NONFREE]
+repository=https://alpha.de.repo.voidlinux.org/current/nonfree
+desc=Non free
+enabled=true
+
+[DEBUG]
+repository=https://alpha.de.repo.voidlinux.org/current/debug
+desc=Debug
+enabled=true
+
+[MULTILIB]
+repository=https://alpha.de.repo.voidlinux.org/current/multilib
+desc=Multilib
+enabled=false
+
+[MULTILIB-NONFREE]
+repository=https://alpha.de.repo.voidlinux.org/current/multilib/nonfree
+desc=Multilib non free
+enabled=false
+
+[LOCAL]
+repository=/home/domenico/void-packages/hostdir/binpkgs
+desc=Local
+enabled=false
+
